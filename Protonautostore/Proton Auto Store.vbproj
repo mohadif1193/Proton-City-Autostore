@@ -79,6 +79,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmconfig.Designer.vb">
+      <DependentUpon>frmconfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmconfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +105,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmconfig.resx">
+      <DependentUpon>frmconfig.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -117,6 +126,55 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orders.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orders2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userprofile.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userprofile2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yearlysales.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yearlysales2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56cd0ed4-282b-4f45-af30-5a781f7514e8_273x186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trollface_non-free_130x58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\art_blog_191x85.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
